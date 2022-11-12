@@ -8,10 +8,10 @@ body {
   margin: 0;
 }
 header, footer {
-  background-color: #ffa500;
+  background-color: #9e2a2b;
   text-align: left;
   /*min-width: 500px;*/
-  font-family: Noto Serif;
+  font-family: 'Playfair Display', serif;
  color: #fff;
  min-height: 100vh;
  display: flex;
@@ -29,7 +29,7 @@ main {
 }
 
 h1 {
-  font-family: Sono;
+  font-family: 'Playfair Display', serif;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -37,12 +37,12 @@ h1 {
 }
 
 h2 {
-  font-family: Sono;
-  font-size: 18px;
-  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: 700;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #9e2a2b;
   padding: 10px 0px 10px 10px;
 }
 
@@ -62,7 +62,7 @@ object-fit: cover;
 .bio {
   color: #ffffff;
   font-size: 24px;
-  font-family: 'Noto Serif';
+  font-family: 'Alice', serif;
 }
 
 .buttonBox {
@@ -83,7 +83,7 @@ object-fit: cover;
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color:#540b0e;
 }
 
 .myButton:active {
@@ -96,8 +96,8 @@ object-fit: cover;
   width: 100%;
 }
 
-.a {
-
+a {
+  color: #fff3b0;
 }
 
 .c {
@@ -113,7 +113,7 @@ object-fit: cover;
 
 .mins {
   display: inline-block;
-  font-family: Sono;
+  font-family: 'Alice', serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -124,13 +124,14 @@ object-fit: cover;
 }
 
 .description {
-  font-family: Noto Serif;
-  font-size: 14px;
+  font-family: 'Alice', serif;
+  font-size: 19px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #4a4a4a;
+  color: #ffffff;
+  background-color: #9e2a2b;
   padding: 10px 0px 10px 10px;
   border-top: 1px solid #4a4a4a;
 }
