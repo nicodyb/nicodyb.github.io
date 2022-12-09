@@ -7,7 +7,8 @@ html {
 body {
   margin: 0;
 }
-header, footer {
+
+header {
   background: #c31432;  /* fallback for old browsers */
   background: linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -16,6 +17,16 @@ header, footer {
   font-family: 'Playfair Display', serif;
  color: #fff;
  min-height: 100vh;
+ display: flex;
+}
+
+footer {
+  background: #c31432;  /* fallback for old browsers */
+  background: linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: left;
+  /*min-width: 500px;*/
+ min-height: 5vh;
  display: flex;
 }
 
@@ -44,7 +55,7 @@ h2 {
   font-weight: 700;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #9e2a2b;
+  color: #a01a58;
   padding: 10px 0px 10px 10px;
 }
 
@@ -85,7 +96,7 @@ object-fit: cover;
 }
 
 .myButton:hover {
-    background-color:#540b0e;
+    background-color:#8f2d56;
 }
 
 .myButton:active {
@@ -93,36 +104,13 @@ object-fit: cover;
     top:1px;
 }
 
-.recipe {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+.project {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 100, 0.5);
   width: 100%;
 }
 
 a {
-  color: #fff3b0;
-}
-
-.c {
-
-}
-
-.time {
-  padding-left: 10px;
-  padding-top: 10px;
-  width: 20px;
-  height: auto;
-}
-
-.mins {
-  display: inline-block;
-  font-family: 'Alice', serif;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  text-align: left;
-  color: #4a4a4a;
-  position: relative;
-  bottom: 5px;
+  color: #80ffdb;
 }
 
 .description {
@@ -133,25 +121,24 @@ a {
   letter-spacing: 0.1px;
   text-align: left;
   color: #ffffff;
-  background-color: #9e2a2b;
+  background-color: #a01a58;
   padding: 10px 0px 10px 10px;
   border-top: 1px solid #4a4a4a;
 }
 
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
-}
-
 .container {
-/*  min-width: 500px; */
+ min-width: 500px;
   margin: auto;
 }
 
-footer {
-  margin-top: 44px;
+footer div {
+  height: 100%;
+  font-family: 'Alice', serif;
+  font-size: 19px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 @media all and (max-width:700px) {
